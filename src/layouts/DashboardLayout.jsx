@@ -19,16 +19,21 @@ const DashboardLayout = () => {
 
                     <ul className="menu p-4 w-[205px] min-h-full bg-[#D1A054] uppercase">
                         <div className="text-center tracking-wide mb-6 mt-3">
-                            <h3 className="text-2xl font-bold uppercase">Kutum Bari</h3>
+                            <h3 className="text-2xl font-bold uppercase">Food Corner</h3>
                             <p className="font-semibold uppercase tracking-[.20em] text-lg">Restaurant</p>
                         </div>
                         {/* Sidebar content here */}
+                        <div className="font-semibold">
+                            <li><Link to='all-product'>All Product</Link></li>
+                            <li><Link to='add-product'>Add Product</Link></li>
 
 
-                        <div className="divider text-white"></div>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/menu'>Shop</Link></li>
-                        <li><Link to='contract'>contact</Link></li>
+                            <div className="divider text-white"></div>
+                            <li><Link to='/'>Home</Link></li>
+                            <li><Link to='/menu'>Shop</Link></li>
+                            <li><Link to='contract'>contact</Link></li>
+
+                        </div>
                     </ul>
 
                 </div>
